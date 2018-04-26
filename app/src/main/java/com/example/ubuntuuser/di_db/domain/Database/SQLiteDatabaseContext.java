@@ -106,7 +106,9 @@ public class SQLiteDatabaseContext extends SQLiteOpenHelper implements IDatabase
 
     @Override
     public List<Card> getCards() {
-        return null;
+        List<Card> cards = new ArrayList<>();
+
+        return cards;
     }
 
     @Override

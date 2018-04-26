@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.ubuntuuser.di_db.domain.Database.IDatabaseContext;
+import com.example.ubuntuuser.di_db.domain.Database.SQLiteDatabaseContext;
 import com.example.ubuntuuser.di_db.domain.Model.Card;
 import com.example.ubuntuuser.di_db.domain.Model.CardGroup;
 
