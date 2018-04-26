@@ -9,8 +9,8 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 
-@Component(modules = {AppModule.class, MockDatabaseModule.class})
-//@Component(modules = {AppModule.class, SQLiteDatabaseModule.class})
+//@Component(modules = {AppModule.class, MockDatabaseModule.class})
+@Component(modules = {AppModule.class, SQLiteDatabaseModule.class})
 @Singleton
 public interface DatabaseContextComponent {
 

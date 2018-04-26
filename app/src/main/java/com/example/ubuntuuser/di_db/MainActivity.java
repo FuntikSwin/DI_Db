@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.example.ubuntuuser.di_db.domain.Database.IDatabaseContext;
 import com.example.ubuntuuser.di_db.domain.Model.Card;
+import com.example.ubuntuuser.di_db.domain.Model.CardGroup;
 
 import java.util.List;
 
@@ -22,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         App.getDbContextComponent().inject(this);
 
-        List<Card> cards = dbContext.getCards();
+        List<CardGroup> groups = dbContext.getCardGroups();
     }
 }
